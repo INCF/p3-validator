@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<measuration>
+    <person position="measured"/>
+    <person position="experimenter"/>
+    <person position="experimenter"/>
+    <scenario/>
+    <data fileName="LED_28_06_2012_104-D.vhdr"/>
+    <data fileName="LED_28_06_2012_104-D.vmrk"/>
+    <data fileName="LED_28_06_2012_104.eeg"/>
+    <data fileName="LED_28_06_2012_104.vmrk"/>
+    <data fileName="LED_28_06_2012_104-N.vhdr"/>
+    <data fileName="LED_28_06_2012_104-D.avg"/>
+    <data fileName="LED_28_06_2012_104-N.avg"/>
+    <data fileName="LED_28_06_2012_104-T.avg"/>
+    <data fileName="LED_28_06_2012_104-T.vhdr"/>
+    <data fileName="LED_28_06_2012_104-T.vmrk"/>
+    <data fileName="LED_28_06_2012_104-N.vmrk"/>
+    <data fileName="LED_28_06_2012_104.vhdr"/>
+</measuration>
