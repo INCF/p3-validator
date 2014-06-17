@@ -1,0 +1,1 @@
+[background.smax,background.buffer(:,1+mod(background.smax:background.smax+size(lastchunk,2)-1,background.buffer_len))] = deal(background.smax + size(lastchunk,2),lastchunk);

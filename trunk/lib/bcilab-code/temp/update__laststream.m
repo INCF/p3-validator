@@ -1,0 +1,1 @@
+[laststream.smax,laststream.buffer(:,1+mod(laststream.smax:laststream.smax+size(lastchunk,2)-1,laststream.buffer_len))] = deal(laststream.smax + size(lastchunk,2),lastchunk);
