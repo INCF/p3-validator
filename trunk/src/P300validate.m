@@ -65,7 +65,6 @@ function [results] = P300validate(training_dir, training_file, test_dirs, test_f
     wnd = wnd - preepoch;
     features_size = length(channels) * length(wnd);
 
-
     [~, ~, out_features, out_targets] = create_feature_vector(markers, training_dir, training_file, features_size, full_size,  channels, averaging,  preepoch, postepoch, min_fq, max_fq, Fs, Fsnew, wnd);
 
     results = zeros(length(test_dirs), 1);

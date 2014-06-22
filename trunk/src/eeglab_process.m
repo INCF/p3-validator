@@ -29,7 +29,7 @@ function [averages, EEG] = eeglab_process(source_directory, source_file_name, cl
     % load BrainVision directory
     %EEG = pop_loadbv(source_directory, source_file_name, [1 831740], [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19]);
     EEG = pop_loadbv(source_directory, source_file_name);
-    %EEG = pop_biosig([source_directory, source_file_name]);
+    %EEG = pop_fileio([source_directory, source_file_name]);
     EEG = eeg_checkset( EEG );
 
     % concat class into a marker name
@@ -54,8 +54,5 @@ function [averages, EEG] = eeglab_process(source_directory, source_file_name, cl
     %EEG = eeg_checkset( EEG );
 
     [EEG] = pop_resample( EEG, Fsnew);
-
-    eeg_data = EEG.data;
-    save('eeg_data', 'eeg_data');
     averages = utl_picktimes(EEG.data, Fsnew * wnd);
-    save('averages', 'averages');
+    

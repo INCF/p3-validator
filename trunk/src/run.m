@@ -15,12 +15,11 @@
 
 % training features selection
 source_dir  = '..\training_dataset\';
-% source_dir  = '..\testing_dataset\76\Data';
-source_file = 'set3.vhdr';
+source_file = 'set2.vhdr';
 
 % testing features selection
-test_dirs    = {'..\testing_dataset\76\Data'; '..\testing_dataset\104\Data'};
-test_files   = {'LED_10_05_2012_76.vhdr'; 'LED_28_06_2012_104.vhdr'};
+test_dirs    = {'..\testing_dataset\104\Data'};
+test_files   = {'LED_28_06_2012_104.vhdr'};
 
 
 
