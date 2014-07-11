@@ -15,8 +15,9 @@ test_files   = {'LED_28_06_2012_104.vhdr', 'F'};
 -------------------------------------------------------------------------------------------------------------------
 Requirements:
 --------------------------------
-The P300 validator requires Matlab, BCILab, and EEGLAB. The required dependencies are located in the lib directory. The lib directory with its
-subdirectories needs to be added to Matlab path before running the validator.
+The P300 validator requires Matlab (2010a or newer), BCILab (1.0 or newer), and EEGLAB (up to v11, v9 included in the library folder).
+The required dependencies are also located in the lib directory. The lib directory with its subdirectories needs to be added to Matlab 
+path before running the validator.
 
 Because of the GitHub file size restrictions, the training data set could not be a part of this project. If you wish to use this training set
 for validation, you can download it on the EEG/ERP Portal http://eegdatabase.kiv.zcu.cz/experiments-detail?4&DEFAULT_PARAM_ID=237 .
